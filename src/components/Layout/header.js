@@ -118,6 +118,15 @@ export default function Header() {
                     </li>
                     <li>
                       <NavLink
+                        to="https://vegpricepredictor.netlify.app/"
+                        target="_blank"
+                        className="dropdown-item"
+                      >
+                        Predictor
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
                         to="/login"
                         onClick={handleLogout}
                         className="dropdown-item"
